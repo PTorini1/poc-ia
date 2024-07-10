@@ -15,10 +15,12 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
 # Instruções de Uso
 
 1. Instalar o python na máquina, caso não possua, é possivel baixa-lo na Microsoft Store
-2. Entrar no site ```
+2. Entrar no site 
+    ```
         https://digi.bib.uni-mannheim.de/tesseract/
     ```
-Instalar a versão ```
+Instalar a versão 
+    ```
         tesseract-ocr-w64-setup-5.4.0.20240606.exe
     ```
 3. ```
