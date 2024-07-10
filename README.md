@@ -15,8 +15,11 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
 # Instruções de Uso
 ```
 1. Instalar o python na máquina, caso não possua, é possivel baixa-lo na Microsoft Store
-2. Clonar o projeto com o comando: git clone https://github.com/PTorini1/poc-ia.git
-3. Copiar e colar comandos do commands.txt no terminal
+2. git clone https://github.com/PTorini1/poc-ia.git
+3. pip install pandas streamlit fitz matplotlib streamlit-option-menu transformers tensorflow tf-keras streamlit-pdf-viewer PyMuPDF openai==0.28 pytesseract tesseract azure-storage-blob asyncio python-dotenv
+4. python -m venv venv
+5. venv\scripts\activate
+6. streamlit run app.py
 4. Criar arquivo .env na raíz do projeto e contatar um administrador para as chaves
 ```
 
