@@ -34,7 +34,7 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
     ```
         OPENAI_API_KEY = <SUA CHAVE> 
         BLOB = <SUA CHAVE>
-        ```
+    ```
 8. ```
     streamlit run app.py
     ```
