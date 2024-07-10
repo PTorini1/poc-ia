@@ -1,0 +1,16 @@
+streamlit
+pandas
+fitz
+matplotlib
+streamlit-option-menu
+transformers
+tensorflow
+tf-keras
+streamlit-pdf-viewer
+PyMuPDF
+openai==0.28
+pytesseract
+tesseract
+azure-storage-blob
+asyncio
+python-dotenv
