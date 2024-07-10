@@ -13,16 +13,25 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
 - Tesseract 
 
 # Instruções de Uso
-```
+
 1. Instalar o python na máquina, caso não possua, é possivel baixa-lo na Microsoft Store
-2. `git clone https://github.com/PTorini1/poc-ia.git`
-3. cd poc-ia
-4. pip install pandas streamlit fitz matplotlib streamlit-option-menu transformers tensorflow tf-keras streamlit-pdf-viewer PyMuPDF openai==0.28 pytesseract tesseract azure-storage-blob asyncio python-dotenv
-5. python -m venv venv
-6. venv\scripts\activate
-7. Criar arquivo .env na raíz do projeto e coloque suas chaves OPENAI_API_KEY e BLOB
-8. streamlit run app.py
-```
+2. ```
+    git clone https://github.com/PTorini1/poc-ia.git```
+3. ```
+    cd poc-ia ```
+4. ```
+    	pip install pandas streamlit fitz matplotlib streamlit-option-menu transformers tensorflow tf-keras streamlit-pdf-viewer PyMuPDF openai==0.28 pytesseract tesseract azure-storage-blob asyncio python-dotenv```
+5. ```
+    python -m venv venv
+    ```
+6. ```
+    venv\scripts\activate```
+7. Criar arquivo .env na raíz do projeto e coloque suas chaves 
+    ```OPENAI_API_KEY = <SUA CHAVE>
+        BLOB = <SUA CHAVE>```
+8. ```
+    streamlit run app.py```
+
 
 Obs: Na hora de rodar a aplicação, pode acontecer de a biblioteca não se comportar bem no localhost e será necessário usar o outro link pelo IP que é fornecido no terminal
 Também desabilitamos o envio de JPG para teste, pois seria necessário um passo extra para download
