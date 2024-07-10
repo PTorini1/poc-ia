@@ -88,7 +88,7 @@ def index_documents(classifier, files, candidate_labels, use_gpt3=False):
         try:
             text = read_document(file_path)
             category = classify_document(classifier, text, candidate_labels, use_gpt3)
-            indexed_data.append({'filename': os.path.basename(file_path), 'category': category})
+            indexed_data.append({'filename': os.path.basename(file_path), 'category': category, 'Prompt': text})
             
             blob_name = os.path.basename(file_path)
             upload_blob_file(os.path.dirname(file_path), blob_name)

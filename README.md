@@ -11,6 +11,8 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
 - Python
 - OpenAI
 - Tesseract 
+- Zeroshot
+- Azure Blob Storage
 
 # Instruções de Uso
 
