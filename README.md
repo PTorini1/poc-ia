@@ -21,7 +21,7 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
     ```
         https://digi.bib.uni-mannheim.de/tesseract/
     ```
-    Instalar a versão 
+    Instalar a versão e manter tudo no padrão no processo de instalação
     ```
         tesseract-ocr-w64-setup-5.4.0.20240606.exe
     ```
