@@ -102,7 +102,7 @@ def classification():
     st.title('Classificação de documentos para a EMTU')
     #st.write('Iniciando o aplicativo...')
 
-    uploaded_files = st.file_uploader('Envie seus arquivos PDF ou JPG', accept_multiple_files=True, type=['pdf'])
+    uploaded_files = st.file_uploader('Envie seus arquivos PDF ou JPG', accept_multiple_files=True, type=['pdf', 'jpg', 'jpeg'])
     #st.write('Arquivos enviados:', uploaded_files)
 
     selected_model = st.selectbox('Selecione o modelo de classificação', list(models.keys()))

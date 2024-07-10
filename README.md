@@ -15,27 +15,35 @@ Pedro Torini - Integração com Chat-GPT, envio de JPG
 # Instruções de Uso
 
 1. Instalar o python na máquina, caso não possua, é possivel baixa-lo na Microsoft Store
-2. ```
+2. Entrar no site 
+```
+    https://digi.bib.uni-mannheim.de/tesseract/
+```
+Instalar a versão 
+```
+    tesseract-ocr-w64-setup-5.4.0.20240606.exe
+```
+3. ```
     git clone https://github.com/PTorini1/poc-ia.git
     ```
-3. ```
+4. ```
     cd poc-ia
     ```
-4. ```
+5. ```
     	pip install pandas streamlit fitz matplotlib streamlit-option-menu transformers tensorflow tf-keras streamlit-pdf-viewer PyMuPDF openai==0.28 pytesseract tesseract azure-storage-blob asyncio python-dotenv
     ```
-5. ```
+6. ```
     python -m venv venv
     ```
-6. ```
+7. ```
     venv\scripts\activate
     ```
-7. Criar arquivo .env na raíz do projeto e coloque suas chaves 
+8. Criar arquivo .env na raíz do projeto e coloque suas chaves 
     ```
         OPENAI_API_KEY = <SUA CHAVE> 
         BLOB = <SUA CHAVE>
     ```
-8. ```
+9. ```
     streamlit run app.py
     ```
 
