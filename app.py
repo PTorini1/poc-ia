@@ -117,6 +117,12 @@ def classification():
         use_gpt3=True
     else:
         use_gpt3=False
+        
+    for uploaded_file in uploaded_files:
+        file_name = uploaded_file.name
+        file_extension = file_name.split('.')[-1].lower()
+        if file_extension in ['jpg', 'jpeg']:
+            use_gpt3=True
 
     if st.button('Classificar'):
         if uploaded_files:
@@ -130,7 +136,7 @@ def classification():
                 with open(file_path, 'wb') as f:
                     f.write(uploaded_file.getbuffer())
                 file_paths.append(file_path)
-                st.write(f'Arquivo salvo: {file_path}')
+                #st.write(f'Arquivo salvo: {file_path}')
 
             if not use_gpt3:
                 classifier = load_model(models[selected_model])
